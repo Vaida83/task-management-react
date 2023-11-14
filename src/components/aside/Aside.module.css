@@ -4,15 +4,15 @@
     inset: 0;
     z-index: 1;
 }
-.aside.show {
+.asideShow {
     display: block;
 }
-.aside .aside-bg {
+.aside .asideBg {
     width: 100%;
     height: 100%;
     background-color: #0008;
 }
-.aside .aside-container {
+.aside .asideContainer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -27,12 +27,12 @@
     border-radius: 2rem 0 0 2rem;
     box-shadow: -0.5rem 0 0.5rem #0003;
 }
-.aside .aside-header {
+.aside .asideHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.aside .aside-title {
+.aside .asideTitle {
     font-size: 2rem;
     line-height: 1em;
     font-weight: normal;
@@ -48,7 +48,7 @@
 .aside .fa-times:hover {
     color: #333;
 }
-.aside .aside-content {
+.aside .asideContent {
     max-height: calc(100vh - 8rem);
     overflow: auto;
 }
