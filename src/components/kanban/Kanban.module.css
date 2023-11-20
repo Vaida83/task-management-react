@@ -15,6 +15,7 @@
     width: 20rem;
 }
 .title {
+    font-size: 1.5rem;
 }
 .taskList {
     display: flex;
@@ -32,7 +33,7 @@
     position: relative;
 }
 
-.taskCard .taskActions {
+.taskActions {
     display: none;
     gap: 1rem;
     position: absolute;
@@ -45,32 +46,32 @@
 .taskCard:hover .taskActions {
     display: flex;
 }
-.taskActions button {
+.btn {
     width: 2rem;
     height: 2rem;
     border-radius: 0.2rem;
     cursor: pointer;
 }
-.taskActions button.fa-trash {
+.fa-trash {
     color: #f00;
 }
-.taskActions button.fa-trash:hover {
+.fa-trash:hover {
     background-color: #f00;
     color: #fff;
 }
 
-.taskCard .taskTitle {
+.taskTitle {
     font-size: 1.5rem;
 }
-.taskCard .taskDesc {
+.taskDesc {
     font-size: 1rem;
     color: #333;
 }
-.taskCard .taskTags {
+.taskTags {
     display: flex;
     gap: 0.7rem;
 }
-.taskCard .tag {
+.tag {
     font-size: 0.9rem;
     font-weight: bold;
     line-height: 1em;
@@ -78,6 +79,19 @@
     border-radius: 1em;
     background-color: #ddd;
 }
-.taskCard .taskDeadline {
+.taskDeadline {
 }
 
+.newColumn {
+    display: flex;
+    width: 20rem;
+    align-items: flex-start;
+}
+.newColumn input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.newColumn button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
